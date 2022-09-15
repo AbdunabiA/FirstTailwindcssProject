@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takeaway and delivery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d90799ddd3.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script src="locomotive-scroll.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+  </head>
+  <body>
+    <div class="containe">
+      <header
+        class="text-center text-white bg-cyan-400 flex justify-center flex-wrap p-2 head"
+      >
+        <p>We're open and available for takeaway & delivery.</p>
+        <a href="#" class="no-underline ml-3">Order Now</a>
+      </header>
+      <nav
+        class="flex flex-wrap sm:flex-nowrap justify-between sm:justify-even text-center items-center nav-bar"
+      >
+        <div class="p-3 sm:ml-12">
+          <img src="images/logo.png" alt="logo" class="w-[70%] logo" id="logo"/>
+        </div>
+        <div
+          class="flex flex-wrap flex-col sm:flex-nowrap sm:mr-12 sm:flex-row items-center text-indigo-900"
+        >
+          <a href="#" class="no-underline mx-2 flex-auto" class="text-cyan-400"
+            >Home</a
+          >
+          <a href="#" class="no-underline mx-2 flex-auto">Order</a>
+          <a href="#" class="no-underline mx-2 flex-auto">Company</a>
+          <a href="#" class="no-underline mx-2 flex-auto">FAQ</a>
+          <a href="#" class="no-underline mx-2 flex-auto">Contact</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="rounded p-2 bg-cyan-400 w-12 h-11 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black hover:text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+            />
+            <div
+              class="relative bottom-12 left-5 sm:left-auto sm:bottom-3 sm:right-2 bg-white rounded-full w-[25%] sm:w-[7%] text-sm animate-ping"
+            >
+              0
+            </div>
+          </svg>
+        </div>
+      </nav>
+      <div class="row flex flex-wrap sm:flex-nowrap mx-10 sm:ml-20 mt-12 pb-20">
+        <div class="col sm:w-[50%] col-left">
+          <div class="row1h1">
+            <h1 class="sm:text-5xl text-2xl">Beautiful food &</h1>
+            <div class="flex my-3">
+              <h1 class="sm:text-5xl text-2xl">takeaway,</h1>
+              <h1 class="sm:text-5xl text-2xl text-cyan-400">delivered</h1>
+            </div>
+            <h1 class="sm:text-5xl text-2xl">to your door</h1>
+            </div>
+          <p class="sm:w-[60%] my-6 teext">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500.
+          </p>
+          <div class="fromb">
+          <button class="bg-cyan-400 px-8 py-3 rounded hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Place an Order</button>
+          <div class="flex my-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 text-lime-600"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <p>Trustpilot</p>
+          </div>
+          <div class="flex">
+            <p class="text-cyan-400 mr-2">4.8 out of 5</p>
+            <p>based on 2000+ reviews</p>
+          </div>
+        </div>
+        </div>
+        <div class="col col-right">
+          <img src="images/fastfood.png" alt="fastfood" class="mt-6 sm:mt-0" />
+        </div>
+      </div>
+      <div
+        class="row bg-cyan-50 flex flex-wrap sm:flex-nowrap py-20 sm:pr-20 sm:pl-10"
+      >
+        <div class="col-6 sm:w-[50%] sm:mt-20 ml-12">
+          <h1 class="text-cyan-400 text-2xl sm:text-5xl sm:mt-20 row2h1">
+            The home of <br />
+            fresh products
+          </h1>
+          <p class="w-[80%] my-5 row2text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500.
+          </p>
+          <button class="py-3 px-8 mb-5 sm:mb-0 sm:mt-5 bg-cyan-400 rounded hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 row2button">
+            Learn about us
+          </button>
+        </div>
+        <div class="col-6 sm:w-[50%] row2right">
+          <img
+            src="images/a_wooman.png"
+            alt="woman"
+            class="mt-6 sm:mt-0 mr-5"
+          />
+        </div>
+      </div>
+      <div class="row3 relative z-1 bg-white py-20 ">
+        <div class="col">
+          <h1
+            class="text-cyan-400 text-center text-3xl sm:text-5xl mb-10 sm:mb-20 row3h1">
+            How it works.
+          </h1>
+        </div>
+        <div class="flex flex-wrap sm:flex-nowrap text-center justify-between">
+          <div class="col sm:w-[33%] row3colleft">
+            <img
+              src="images/how_it_works1.png"
+              alt="img"
+              class="mx-auto w-[80%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black"
+            />
+            <p class="sm:mt-10 sm:mb-5 my-4">Adapt your menu items</p>
+            <p class="sm:mx-auto sm:w-[60%]">
+              Easily adapt your menu using the webflow CMS and allow customers
+              to browse your items.
+            </p>
+          </div>
+          <div class="col sm:w-[33%] row3colmid">
+            <img
+              src="images/how_it_works2.png"
+              alt="img"
+              class="mx-auto w-[80%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black"
+            />
+            <p class="sm:mt-10 sm:mb-5 my-4">Accept online orders & takeout</p>
+            <p class="sm:mx-auto sm:w-[65%]">
+              Let your customers order and pay via the powerful ecommerce
+              system, or simple let them call your store.
+            </p>
+          </div>
+          <div class="col sm:w-[33%] row3colright">
+            <img
+              src="images/how_it_works3.png"
+              alt="img"
+              class="mx-auto w-[80%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black"
+            />
+            <p class="sm:mt-10 sm:mb-5 my-4">Manage delivery or takeout</p>
+            <p class="sm:mx-auto sm:w-[60%]">
+              Manage your own logistics and take orders simply through the
+              ecommerce system.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row4 relative z-10 bg-cyan-50 pt-10 pb-10 sm:pt-20">
+        <div class="col row4col">
+          <h1
+            class="text-cyan-400 text-center text-3xl sm:text-5xl mb-10 sm:mb-15"
+          >
+            Browse our menu
+          </h1>
+          <p class="text-center sm:w-[34%] mx-auto">
+            Use our menu to place an order online, or phone our store to place a
+            pickup order. Fast and fresh food.
+          </p>
+          <div
+            class="flex justify-between my-10 mx-auto md:w-[40%] sm:my-15 sm:justify-around"
+          >
+            <button class="bg-cyan-400 px-6 py-2 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Burgers</button>
+            <button class="px-8 py-2 bg-white rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Sides</button>
+            <button class="px-8 py-2 bg-white rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Drinks</button>
+          </div>
+        </div>
+        <div class="container mx-outo sm:p-20">
+          <div class="flex flex-wrap sm:flex-nowrap columns-2">
+            <div class="flex bg-white flex-wrap sm:flex-nowrap sm:mr-20 transition ease-in-out delay-150 hover:-translate-y-1 sm:hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black leftcols1">
+              <img
+                src="images/burger_dreams.png"
+                class="w-[80%] mx-auto sm:w-[30%] sm:mx-5 sm:my-10"
+                alt="dreams"
+              />
+              <div class="info mx-2 my-5 sm:mr-10 sm:my-10">
+                <div class="flex justify-between">
+                  <p class="text-2xl">Burger Dreams</p>
+                  <p class="text-cyan-400">$ 9.20 USD</p>
+                </div>
+                <p class="text-sm my-5">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="flex justify-around sm:justify-start">
+                  <input
+                    type="number"
+                    value="1"
+                    class="w-10 text-center border-2 border-black"
+                  />
+                  <button
+                    class="px-2 py-1 text-lg rounded bg-cyan-400 sm:ml-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                  >
+                    Add to card
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex bg-white flex-wrap sm:flex-nowrap my-10 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 sm:hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black rightcols1">
+              <img
+                src="images/burger_waido.png"
+                class="w-[80%] mx-auto sm:w-[30%] sm:mx-5 sm:my-10"
+                alt="waido"
+              />
+              <div class="info mx-2 my-5 sm:mr-10 sm:my-10">
+                <div class="flex justify-between">
+                  <p class="text-2xl">Burger Waido</p>
+                  <p class="text-cyan-400">$ 10.00 USD</p>
+                </div>
+                <p class="text-sm my-5">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="flex justify-around sm:justify-start">
+                  <input
+                    type="number"
+                    value="1"
+                    class="w-10 text-center border-2 border-black"
+                  />
+                  <button
+                    class="px-2 py-1 text-lg rounded bg-cyan-400 sm:ml-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                  >
+                    Add to card
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:flex-nowrap columns-2">
+            <div
+              class="flex bg-white flex-wrap sm:flex-nowrap sm:mr-20 sm:my-10 transition ease-in-out delay-150 hover:-translate-y-1 sm:hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black leftcols2">
+              <img
+                src="images/burger_call.png"
+                class="w-[80%] mx-auto sm:w-[30%] sm:mx-5 sm:my-10"
+                alt="cali"
+              />
+              <div class="info mx-2 my-5 sm:mr-10 sm:my-10">
+                <div class="flex justify-between">
+                  <p class="text-2xl">Burger Cali</p>
+                  <p class="text-cyan-400">$ 8.00 USD</p>
+                </div>
+                <p class="text-sm my-5">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="flex justify-around sm:justify-start">
+                  <input
+                    type="number"
+                    value="1"
+                    class="w-10 text-center border-2 border-black"
+                  />
+                  <button
+                    class="px-2 py-1 text-lg rounded bg-cyan-400 sm:ml-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                  >
+                    Add to card
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex bg-white flex-wrap sm:flex-nowrap my-10 
+            transition ease-in-out delay-150 hover:-translate-y-1 sm:hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black rightcols2">
+              <img
+                src="images/burger_bacon_buddy.png"
+                class="w-[80%] mx-auto sm:w-[30%] sm:mx-5 sm:my-10"
+                alt="bacon"
+              />
+              <div class="info mx-2 my-5 sm:mr-10 sm:my-10">
+                <div class="flex justify-between">
+                  <p class="text-2xl">Burger Bacon Buddy</p>
+                  <p class="text-cyan-400">$ 9.99 USD</p>
+                </div>
+                <p class="text-sm my-5">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="flex justify-around sm:justify-start">
+                  <input
+                    type="number"
+                    value="1"
+                    class="w-10 text-center border-2 border-black"
+                  />
+                  <button
+                    class="px-2 py-1 text-lg rounded bg-cyan-400 sm:ml-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                  >
+                    Add to card
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:flex-nowrap columns-2">
+            <div class="flex bg-white flex-wrap sm:flex-nowrap sm:mr-20 transition ease-in-out delay-150 hover:-translate-y-1 sm:hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black leftcols3">
+              <img
+                src="images/burger_spicy.png"
+                class="w-[80%] mx-auto sm:w-[30%] sm:mx-5 sm:my-10"
+                alt="cali"
+              />
+              <div class="info mx-2 my-5 sm:mr-10 sm:my-10">
+                <div class="flex justify-between">
+                  <p class="text-2xl">Burger Spicy</p>
+                  <p class="text-cyan-400">$ 9.20 USD</p>
+                </div>
+                <p class="text-sm my-5">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="flex justify-around sm:justify-start">
+                  <input
+                    type="number"
+                    value="1"
+                    class="w-10 text-center border-2 border-black"
+                  />
+                  <button
+                    class="px-2 py-1 text-lg rounded bg-cyan-400 sm:ml-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                  >
+                    Add to card
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex bg-white flex-wrap sm:flex-nowrap mt-10 sm:mt-0 transition ease-in-out delay-150 hover:-translate-y-1 sm:hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black rightcols3">
+              <img
+                src="images/burger_calssic.png"
+                class="w-[80%] mx-auto sm:w-[30%] sm:mx-5 sm:my-10"
+                alt="classic"
+              />
+              <div class="info mx-2 my-5 sm:mr-10 sm:my-10">
+                <div class="flex justify-between">
+                  <p class="text-2xl">Burger Classic</p>
+                  <p class="text-cyan-400">$ 8.00 USD</p>
+                </div>
+                <p class="text-sm my-5">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="flex justify-around sm:justify-start">
+                  <input
+                    type="number"
+                    value="1"
+                    class="w-10 text-center border-2 border-black"
+                  />
+                  <button
+                    class="px-2 py-1 text-lg rounded bg-cyan-400 sm:ml-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                  >
+                    Add to card
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-10">
+          <button class="py-3 px-8 bg-cyan-400 rounded text-xl text-white hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+            See Full Menu
+          </button>
+        </div>
+      </div>
+      <div class="row py-10">
+        <div class="flex flex-wrap sm:flex-nowrap text-center sm:text-left">
+          <div class="img sm:w-[50%]">
+            <img src="images/phone.png" alt="phone" class="row5img">
+          </div>
+          <div class="my-10 mx-5 sm:mt-20 sm:w-[50%] row5right">
+            <h1 class="text-cyan-400 text-2xl sm:text-5xl sm:mt-20">
+              Order online with <br> our simple checkout.
+            </h1>
+            <p class="my-10">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+            </p>
+            <button class="rounded text-white py-3 px-8 text-xl bg-cyan-400 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+              See our FAQ
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-cyan-50 py-10">
+        <div class="flex flex-wrap sm:flex-nowrap text-center sm:text-left">
+          <div class="info sm:w-[50%] px-5 sm:mt-10 sm:ml-20 row6left">
+            <h1 class="text-cyan-400 text-2xl sm:text-5xl mt-5 sm:mt-20 sm:mb-10">
+              Call our store and <br> takeaway when it <br> suits you best.
+            </h1>
+            <p class="my-5">
+              Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> 
+              standard dummy text ever since the 1500.
+            </p>
+            <button class="bg-cyan-400 py-3 px-6 rounded text-white sm:mt-10 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+              Ph. +61 233 2333
+            </button>
+          </div>
+          <div class="img sm:w-[50%] mt-10 mr-5">
+            <img src="images/cafe.png" alt="cafe" class="sm:w-[80%]">
+          </div>
+        </div>
+      </div>
+      <div class="row7 relative z-1 bg-white py-10">
+        <div class="flex flex-wrap sm:flex-nowrap">
+          <div class="img mx-5 sm:w-[50%]">
+            <img src="images/eating_fastfood.png" alt="food" class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-200 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black">
+          </div>
+          <div class="info bg-cyan-400 mx-5 mt-5 sm:mt-0 w-[90%] sm:w-[50%]
+          transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black">
+            <div class="mt-20 ml-5 pt-20">
+              <div class="flex">
+                <h1 class="text-cyan-700 text-3xl sm:text-6xl">Support</h1>
+                <h1 class="text-3xl sm:text-6xl text-white ml-3">good food</h1>
+              </div>
+              <div class=" mt-2 sm:mt-5">
+                <h1 class="text-3xl sm:text-6xl text-white">and local business.</h1>
+              </div>
+            </div>
+            <button class="py-2 px-5 bg-white rounded sm:text-xl text-cyan-400 my-10 ml-5 hover:shadow-lg hover:shadow-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row8 relative z-10 sm:py-20">
+        <div class="flex flex-wrap sm:flex-nowrap ">
+          <div class="py-10 px-10 sm:px-20">
+            <img src="images/logo.png" alt="logo" class="sm:ml-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black">
+            <p class="sm:ml-20">
+              Takeaway & Delivery template <br>
+              for small - medium businesses.
+            </p>
+          </div>
+          <div class="flex justify-around my-10 mx-5 sm:mx-20">
+            <div class="company sm:mx-20">
+              <h1 class="text-xl">Company</h1>
+              <p class="text-sm">Home</p>
+              <p class="text-sm">Order</p>
+              <p class="text-sm">FAQ</p>
+              <p class="text-sm">Contact</p>
+            </div>
+            <div class="template ml-5 sm:mr-20">
+              <h1 class="text-xl">Template</h1>
+              <p class="text-sm">Style Guide</p>
+              <p class="text-sm">Changelog</p>
+              <p class="text-sm">Licence</p>
+              <p class="text-sm">Webflow University</p>
+            </div>
+            <div class="Flowbase">
+              <h1 class="text-xl">Flowbase</h1>
+              <p class="text-sm">More Cloneables</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <footer class="text-center py-10 text-xl sm:text-2xl">
+        <i class="fa-brands fa-instagram cursor-pointer hover:text-violet-600 hover:shadow-lg transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black"></i>
+        <i class="fa-brands fa-twitter mx-10 cursor-pointer hover:text-blue-600 transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black"></i>
+        <i class="fa-brands fa-youtube cursor-pointer hover:text-red-600 transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 hover:rounded-lg hover:shadow-lg hover:shadow-black"></i>
+      </footer>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
